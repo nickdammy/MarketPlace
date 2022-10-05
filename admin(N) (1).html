@@ -1,0 +1,166 @@
+<html>
+
+<head>
+
+  <title>Admin Dashboard</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- EXTERNAL CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+
+  <!-- FONT AWESOME -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+</head>
+
+<body>
+
+  <!-- SIDE NAVIGATION -->
+  <aside>
+    <nav>
+
+      <div class = "profile-header">
+        <h2> Admin </h2>
+        <!--<h4><i><a href = "../main/index.html">Log out</a></i></h4>-->
+      </div>
+      <hr class = "side-nav-hr">
+      <ul class = "side-navigation-menu">
+        <li>
+          <i class="fa fa-home" aria-hidden="true"></i> <a href = "../admin/admin.html">Dashboard</a>
+        </li>
+        <li>
+          <i class="fa fa-graduation-cap" aria-hidden="true"></i> <a href = "../admin/managestudents.html">Students</a>
+        </li>
+        <li>
+          <i class="fa fa-users" aria-hidden="true"></i> <a href = "../admin/manageprofessor.html">BUsiness Owner</a>
+        </li>
+        <li>
+          <i class="fa fa-users" aria-hidden="true"></i> <a href = "../admin/manageadvisor.html">School Admin</a>
+        </li>
+        <li>
+          <i class="fa fa-comments" aria-hidden="true"></i> <a href = "../Home/chatbox.html" id = "mavchat">Chatbox</a>
+        </li>
+        <li>
+          <i class="fas fa-sign-out-alt" aria-hidden=""></i> <a href = "">Logout</a>
+        </li>
+      </ul>
+
+    </nav>
+  </aside>
+
+  <!-- POPULATION TRACKING -->
+  <div class = "main-container">
+    <div class = "this-week">
+      <h2 class = "dashboard-title"> Users Tracking </h2>
+
+      <div class="flip-grid">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <p class="flip-card-text">Total Active Users <p>
+            </div>
+            <div class="flip-card-back">
+              <p class="flip-card-text">100<p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <p class="flip-card-text">Active Student Users <p>
+            </div>
+            <div class="flip-card-back">
+              <p class="flip-card-text">80<p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <p class="flip-card-text">Active Business Users<p>
+            </div>
+            <div class="flip-card-back">
+              <p class="flip-card-text">40<p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <p class="flip-card-text">Active School Admins<p>
+            </div>
+            <div class="flip-card-back">
+              <p class="flip-card-text">10<p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Bar chart-->
+    <div class='barcontainer'>
+      <div class='barcontainerheader'>
+          Business Owner Population
+      </div>
+      <div class='bar' style='height:30%'>
+        Subway
+        <div class='barlabel'>
+          30%
+        </div>
+      </div>
+      <div class='bar' style='height: 40%'>
+        Chick Fill-A
+        <div class='barlabel'>
+          50%
+        </div>    
+      </div>
+      <div class='bar' style='height: 60%'>
+        Books
+        Store
+        <div class='barlabel'>
+          80%
+        </div>
+      </div>
+  </div>
+  <div class="barcontainer">
+      <div class='barcontainerheader'>
+          Student User's Population
+        </div>
+        <div class='bar' style='height:30%'>
+          Arch
+          <div class='barlabel'>
+            30%
+          </div>
+        </div>
+        <div class='bar' style='height: 40%'>
+          Bio
+          <div class='barlabel'>
+            50%
+          </div>    
+        </div>
+        <div class='bar' style='height: 60%'>
+          CSE
+          <div class='barlabel'>
+            80%
+          </div>
+        </div>
+    </div>
+  </div>
+
+
+      
+
+ </body>
+
+</html>
